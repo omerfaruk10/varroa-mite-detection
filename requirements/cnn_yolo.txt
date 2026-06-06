@@ -1,1 +1,11 @@
-
+ultralytics==8.4.48
+torch
+torchvision
+pandas
+numpy
+matplotlib
+scikit-learn
+opencv-python
+Pillow
+roboflow
+tqdm
