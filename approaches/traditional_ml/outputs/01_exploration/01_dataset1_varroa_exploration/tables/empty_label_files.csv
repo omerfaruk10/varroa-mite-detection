@@ -1,0 +1,9 @@
+﻿split,stem,label_path,label_size_bytes,issue
+train,2017-08-30_15-42-59-mp4-bee_id_10529-79545-1_png.rf.de26fdd716cc90aa5e735cee289abb3c,data/raw/dataset1_varroa/train/labels/2017-08-30_15-42-59-mp4-bee_id_10529-79545-1_png.rf.de26fdd716cc90aa5e735cee289abb3c.txt,0,empty_label_file
+train,2017-08-30_15-42-59-mp4-bee_id_10749-87390-1_png.rf.fc5d39c12b2dbd72ac128c10f2192414,data/raw/dataset1_varroa/train/labels/2017-08-30_15-42-59-mp4-bee_id_10749-87390-1_png.rf.fc5d39c12b2dbd72ac128c10f2192414.txt,0,empty_label_file
+train,2017-08-30_15-42-59-mp4-bee_id_9244-5295-1_png.rf.cb54b585c6b311d4ecdcd358729b8a46,data/raw/dataset1_varroa/train/labels/2017-08-30_15-42-59-mp4-bee_id_9244-5295-1_png.rf.cb54b585c6b311d4ecdcd358729b8a46.txt,0,empty_label_file
+train,2017-09-20_19-24-55-mp4-bee_id_5519-75795-1_png.rf.d38eef394bfbabbe59bb0a1d523e11ae,data/raw/dataset1_varroa/train/labels/2017-09-20_19-24-55-mp4-bee_id_5519-75795-1_png.rf.d38eef394bfbabbe59bb0a1d523e11ae.txt,0,empty_label_file
+train,2017-09-20_19-24-55-mp4-bee_id_5795-83250-1_png.rf.d52732b1a8d48f13ad62fb9013652ef8,data/raw/dataset1_varroa/train/labels/2017-09-20_19-24-55-mp4-bee_id_5795-83250-1_png.rf.d52732b1a8d48f13ad62fb9013652ef8.txt,0,empty_label_file
+train,2017-09-20_19-24-55-mp4-bee_id_6080-91485-1_png.rf.6e8297ecfb8204f0fde85b5656db0d3c,data/raw/dataset1_varroa/train/labels/2017-09-20_19-24-55-mp4-bee_id_6080-91485-1_png.rf.6e8297ecfb8204f0fde85b5656db0d3c.txt,0,empty_label_file
+train,2017-09-25_16-03-38-mp4-bee_id_532-19320-1_png.rf.c153bb1d9bba53df2a4e76006fd7f60c,data/raw/dataset1_varroa/train/labels/2017-09-25_16-03-38-mp4-bee_id_532-19320-1_png.rf.c153bb1d9bba53df2a4e76006fd7f60c.txt,0,empty_label_file
+test,2017-10-17_1-39-36-mp4-bee_id_3546-2010-1_png.rf.15d530f9c77d8f231c96e74003dba488,data/raw/dataset1_varroa/test/labels/2017-10-17_1-39-36-mp4-bee_id_3546-2010-1_png.rf.15d530f9c77d8f231c96e74003dba488.txt,0,empty_label_file

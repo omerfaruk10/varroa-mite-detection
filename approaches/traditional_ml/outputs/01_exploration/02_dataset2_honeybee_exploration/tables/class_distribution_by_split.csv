@@ -1,0 +1,4 @@
+﻿split,class_id,class_name,object_count
+test,0,varroa_mite,572
+train,0,varroa_mite,9216
+valid,0,varroa_mite,570

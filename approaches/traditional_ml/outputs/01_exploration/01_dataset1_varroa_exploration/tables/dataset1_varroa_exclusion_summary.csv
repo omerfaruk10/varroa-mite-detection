@@ -1,0 +1,2 @@
+﻿dataset_name,valid_varroa_bbox_count,extreme_small_candidate_count,extreme_large_candidate_count,varroa_bbox_exclusion_candidate_count,empty_label_image_exclusion_count,invalid_yolo_row_count,invalid_row_image_count,raw_data_modified,patch_metadata_created,note
+dataset1_varroa,5149,0,26,26,8,0,0,False,False,Extreme bbox candidates are computed using dataset-specific symmetric quantile/IQR thresholds. Dataset1 additionally excludes empty-label images. Dataset2 additionally excludes invalid YOLO rows; invalid-row images should not be used as negative sources.

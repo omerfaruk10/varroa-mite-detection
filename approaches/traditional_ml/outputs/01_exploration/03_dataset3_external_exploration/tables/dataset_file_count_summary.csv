@@ -1,0 +1,4 @@
+﻿split,image_count,label_count,image_minus_label_count
+train,4749,4749,0
+valid,593,593,0
+test,596,596,0

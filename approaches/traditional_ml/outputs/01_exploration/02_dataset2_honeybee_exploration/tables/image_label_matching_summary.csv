@@ -1,0 +1,4 @@
+﻿split,total_stem_count,matched_image_label_count,missing_label_count,missing_image_count
+train,12614,12614,0,0
+valid,790,790,0,0
+test,790,790,0,0

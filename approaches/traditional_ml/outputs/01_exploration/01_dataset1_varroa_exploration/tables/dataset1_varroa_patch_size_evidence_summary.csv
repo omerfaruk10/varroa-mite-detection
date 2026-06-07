@@ -1,0 +1,4 @@
+﻿candidate_patch_size,candidate_patch_area_px,valid_varroa_box_count,median_varroa_width_px,median_varroa_height_px,median_varroa_area_px,median_box_area_to_patch_area_ratio,median_patch_width_to_box_width_ratio,median_patch_height_to_box_height_ratio,note
+80,6400,5149,83.5,46.5,3833.5,0.598984375,0.9580838323353293,1.7204301075268817,Evidence only; patch metadata is not created in exploration.
+96,9216,5149,83.5,46.5,3833.5,0.4159613715277778,1.1497005988023952,2.064516129032258,Evidence only; patch metadata is not created in exploration.
+112,12544,5149,83.5,46.5,3833.5,0.3056042729591837,1.341317365269461,2.4086021505376345,Evidence only; patch metadata is not created in exploration.

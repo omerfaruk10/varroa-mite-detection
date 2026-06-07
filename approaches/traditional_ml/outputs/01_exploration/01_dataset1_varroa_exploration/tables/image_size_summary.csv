@@ -1,0 +1,4 @@
+﻿split,image_count,readable_image_count,unique_size_count,min_width,max_width,min_height,max_height
+test,3408,3408,1,640,640,640,640
+train,8217,8217,1,640,640,640,640
+valid,1867,1867,1,640,640,640,640

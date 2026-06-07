@@ -1,0 +1,7 @@
+﻿split,class_id,class_name,object_count
+test,0,bee,3451
+test,1,varroa,1449
+train,0,bee,8224
+train,1,varroa,3056
+valid,0,bee,1876
+valid,1,varroa,644

@@ -1,0 +1,4 @@
+﻿split,image_count,images_with_any_object,images_with_zero_object,images_with_varroa,images_with_zero_varroa,total_objects,total_varroa_objects,max_varroa_per_image
+test,596,238,358,238,358,296,296,4
+train,4749,1691,3058,1691,3058,2138,2138,4
+valid,593,218,375,218,375,284,284,4

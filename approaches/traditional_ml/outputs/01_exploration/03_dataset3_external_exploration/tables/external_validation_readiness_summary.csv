@@ -1,0 +1,2 @@
+﻿dataset_name,role,image_count,label_count,valid_yolo_row_count,invalid_yolo_row_count,empty_label_file_count,unreadable_image_count,patch_preparation_required,model_training_allowed,note
+dataset3_external,external_validation_only,5938,5938,2718,0,3791,0,False,False,Dataset3 is reserved for final external validation only.
