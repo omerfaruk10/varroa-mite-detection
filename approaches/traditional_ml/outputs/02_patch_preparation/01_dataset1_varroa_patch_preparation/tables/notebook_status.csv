@@ -1,0 +1,2 @@
+﻿dataset_name,stage_name,notebook_name,final_status,metadata_file_count,validation_problem_count,sanity_figure_count,raw_data_modified,run_timestamp
+dataset1_varroa,02_patch_preparation,01_dataset1_varroa_patch_preparation,READY_FOR_NEXT_STAGE,6,0,36,False,2026-05-24 23:49:07

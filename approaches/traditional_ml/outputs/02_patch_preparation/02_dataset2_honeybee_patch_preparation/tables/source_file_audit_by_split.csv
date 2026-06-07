@@ -1,0 +1,4 @@
+﻿split,image_count,label_count,missing_label_count,missing_image_count,empty_label_file_count,unreadable_image_count
+test,790,790,0,0,276,0
+train,12614,12614,0,0,4556,0
+valid,790,790,0,0,264,0

@@ -1,0 +1,54 @@
+﻿column_name,dtype,nullable,description
+patch_id,object,True,Deterministic unique patch id.
+dataset_name,object,True,Dataset identifier.
+split,object,True,train / valid / test split.
+source_image_path,object,True,Raw source image path.
+source_label_path,object,True,Raw source label path.
+patch_set,object,True,Patch set name such as centered80_balanced.
+patch_size,int64,True,Square patch size in pixels.
+ratio_variant,object,True,balanced or neg4x.
+patch_label,int64,True,"1 positive, 0 negative."
+patch_type,object,True,"positive, center_negative, mixed_negative, outer_negative."
+x1,int64,True,Crop left coordinate.
+y1,int64,True,Crop top coordinate.
+x2,int64,True,Crop right coordinate.
+y2,int64,True,Crop bottom coordinate.
+crop_width,int64,True,Crop width in pixels.
+crop_height,int64,True,Crop height in pixels.
+image_width,int64,True,Source image width.
+image_height,int64,True,Source image height.
+patch_center_x_px,float64,True,Final crop center x after boundary shift.
+patch_center_y_px,float64,True,Final crop center y after boundary shift.
+requested_center_x_px,float64,True,Requested crop center x before boundary shift.
+requested_center_y_px,float64,True,Requested crop center y before boundary shift.
+was_shifted_to_fit_image,bool,True,Whether crop was shifted to fit image boundaries.
+shift_x_px,int64,True,Crop shift on x axis.
+shift_y_px,int64,True,Crop shift on y axis.
+source_bbox_id,object,True,Source bbox id for positive rows.
+source_bbox_row_index,float64,True,YOLO row index for positive rows.
+source_bbox_class_id,float64,True,Source bbox class id for positive rows.
+source_bbox_class_name,object,True,Source bbox class name for positive rows.
+source_bbox_x_center_norm,float64,True,YOLO x center normalized.
+source_bbox_y_center_norm,float64,True,YOLO y center normalized.
+source_bbox_width_norm,float64,True,YOLO bbox width normalized.
+source_bbox_height_norm,float64,True,YOLO bbox height normalized.
+source_bbox_x_center_px,float64,True,BBox x center in pixels.
+source_bbox_y_center_px,float64,True,BBox y center in pixels.
+source_bbox_width_px,float64,True,BBox width in pixels.
+source_bbox_height_px,float64,True,BBox height in pixels.
+source_bbox_area_px,float64,True,BBox area in pixels.
+is_valid_yolo_row,object,True,Whether source YOLO row was valid.
+is_extreme_small_candidate,object,True,Dataset-specific small bbox outlier flag.
+is_extreme_large_candidate,object,True,Dataset-specific large bbox outlier flag.
+is_bbox_exclusion_candidate,object,True,Final bbox-level exclusion flag.
+negative_type,object,True,Negative type for negative rows.
+requested_negative_zone,object,True,Requested negative zone before crop shift.
+actual_negative_zone,object,True,Actual zone after crop shift.
+actual_normalized_center_distance,float64,True,Actual normalized distance from image center.
+negative_source_mode,object,True,primary_no_varroa_image or fallback varroa-image non-overlap mode.
+max_bbox_inside_patch_ratio,float64,True,Maximum fraction of any Varroa bbox area covered by the negative patch.
+overlaps_varroa_bbox,object,True,Whether the negative patch crosses the accepted overlap threshold.
+sampling_seed,int64,True,Sampling seed.
+sampling_attempt_index,int64,True,Attempt index used for negative sampling.
+notes,object,True,Free text notes.
+flags,object,True,Semicolon-separated technical flags.

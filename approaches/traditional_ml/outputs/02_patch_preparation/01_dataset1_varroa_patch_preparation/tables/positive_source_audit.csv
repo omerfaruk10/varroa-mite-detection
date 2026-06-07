@@ -1,0 +1,4 @@
+﻿dataset_name,split,positive_candidate_bbox_count,accepted_positive_bbox_count,excluded_bbox_outlier_count,invalid_yolo_row_count
+dataset1_varroa,train,3056,3032,24,0
+dataset1_varroa,valid,644,644,0,0
+dataset1_varroa,test,1449,1447,2,0

@@ -1,0 +1,4 @@
+﻿split,total_yolo_rows,valid_yolo_rows,invalid_yolo_rows
+test,583,572,11
+train,9216,9216,0
+valid,580,570,10

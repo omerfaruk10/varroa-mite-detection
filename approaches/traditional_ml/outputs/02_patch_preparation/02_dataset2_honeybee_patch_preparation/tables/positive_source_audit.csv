@@ -1,0 +1,4 @@
+﻿dataset_name,split,positive_candidate_bbox_count,accepted_positive_bbox_count,excluded_bbox_outlier_count,invalid_yolo_row_count
+dataset2_honeybee,train,9216,9211,5,0
+dataset2_honeybee,valid,570,570,0,10
+dataset2_honeybee,test,572,572,0,11

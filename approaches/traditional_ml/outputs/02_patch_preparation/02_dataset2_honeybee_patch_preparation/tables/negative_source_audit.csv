@@ -1,0 +1,4 @@
+﻿dataset_name,split,zero_varroa_image_count,empty_label_file_count,invalid_yolo_row_image_count,accepted_negative_source_image_count
+dataset2_honeybee,train,4556,4556,0,4556
+dataset2_honeybee,valid,273,264,10,264
+dataset2_honeybee,test,286,276,11,276
