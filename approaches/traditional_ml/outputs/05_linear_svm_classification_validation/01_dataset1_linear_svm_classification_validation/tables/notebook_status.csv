@@ -1,0 +1,2 @@
+dataset_name,notebook_name,stage_name,started_at,finished_at,elapsed_minutes,evaluation_split,expected_model_count,evaluated_model_count,failed_evaluation_count,overall_top_n,ratio_top_n,top_model_id,top_model_patch_set,top_model_feature_set,top_model_valid_f1,status
+dataset1_varroa,01_dataset1_linear_svm_classification_validation,05_linear_svm_classification_validation,2026-05-27 01:02:41,2026-05-27 01:10:59,8.3,valid,78,78,0,20,10,d1_linsvm_011,centered80_balanced,hog16_pca_hsv_lbp,0.944238,READY_FOR_USER_REVIEW

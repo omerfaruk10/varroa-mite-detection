@@ -1,0 +1,2 @@
+dataset_name,evaluation_split,primary_ranking_metric,overall_review_list,balanced_review_list,neg4x_review_list,automatic_final_selection,final_selection_rule
+dataset2_honeybee,valid,valid_f1,top 20 by valid_f1,top 10 balanced by valid_f1,top 10 neg4x by valid_f1,False,User will review the reported lists and provide selected model IDs and rationale before Stage 06.

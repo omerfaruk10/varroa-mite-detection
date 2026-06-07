@@ -1,0 +1,4 @@
+﻿input_name,path,exists,rows,columns
+model_registry,outputs/models/dataset2_honeybee/01_linear_svm/model_registry.csv,True,78,37
+feature_manifest,data/features/dataset2_honeybee/feature_manifest.csv,True,78,32
+training_status,outputs/models/dataset2_honeybee/01_linear_svm/training_status.csv,False,0,0

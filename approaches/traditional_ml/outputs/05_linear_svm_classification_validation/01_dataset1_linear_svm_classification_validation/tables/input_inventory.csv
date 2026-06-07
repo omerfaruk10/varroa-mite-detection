@@ -1,0 +1,4 @@
+﻿input_name,path,exists,rows,columns
+model_registry,outputs/models/dataset1_varroa/01_linear_svm/model_registry.csv,True,78,37
+feature_manifest,data/features/dataset1_varroa/feature_manifest.csv,True,78,32
+training_status,outputs/models/dataset1_varroa/01_linear_svm/training_status.csv,False,0,0
