@@ -1,0 +1,50 @@
+# Local experiments
+/playground/
+
+# Project-level data and generated artifacts
+data/raw/
+data/features/
+data/metadata/
+/project_notes/
+/stages/
+/figures/
+/outputs/
+
+# Heavy ML / data artifacts safety net
+*.parquet
+*.joblib
+*.pkl
+*.pickle
+*.npy
+*.npz
+*.h5
+*.onnx
+*.pt
+*.pth
+*.ckpt
+*.zip
+
+# Python / notebook cache
+__pycache__/
+*.py[cod]
+.ipynb_checkpoints/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# Environments
+.venv/
+venv/
+env/
+
+# Secrets
+.env
+.env.*
+!.env.example
+
+# OS / editor
+.DS_Store
+Thumbs.db
+desktop.ini
+.vscode/
+.idea/
