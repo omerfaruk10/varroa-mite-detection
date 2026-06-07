@@ -1,0 +1,7 @@
+controlled_gt_count_group,available_count,target_count,selected_count,target_met,dataset_name
+zero,2190,280,280,True,dataset1_varroa
+one,998,220,220,True,dataset1_varroa
+two_or_more,220,50,50,True,dataset1_varroa
+zero,286,280,280,True,dataset2_honeybee
+one,443,220,220,True,dataset2_honeybee
+two_or_more,61,50,50,True,dataset2_honeybee

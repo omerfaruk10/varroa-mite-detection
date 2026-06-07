@@ -1,0 +1,2 @@
+eval_mode,dataset_name,algorithm_name,model_id,model_file_name,AP@0.20,AP@0.30,AP@0.50,mAP50,mAP50-95
+full_test,dataset2_honeybee,random_forest,d2_rf_006,d2_rf_006__centered48_neg4x__hog16_hsv_lbp.joblib,0.39071472438796107,0.20442083886189363,0.013014443736649926,0.013014443736649926,0.002780983227626235

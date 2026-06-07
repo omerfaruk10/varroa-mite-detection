@@ -1,0 +1,2 @@
+eval_mode,dataset_name,algorithm_name,model_id,model_file_name,image_tp,image_tn,image_fp,image_fn,image_accuracy,image_precision,image_recall,image_specificity,image_f1,false_positive_image_rate,missed_positive_image_rate
+full_test,dataset1_varroa,linear_svm,d1_linsvm_011,d1_linsvm_011__centered80_balanced__hog16_pca_hsv_lbp.joblib,928,1488,702,290,0.7089201877934272,0.5693251533742332,0.7619047619047619,0.6794520547945205,0.651685393258427,0.32054794520547947,0.23809523809523808

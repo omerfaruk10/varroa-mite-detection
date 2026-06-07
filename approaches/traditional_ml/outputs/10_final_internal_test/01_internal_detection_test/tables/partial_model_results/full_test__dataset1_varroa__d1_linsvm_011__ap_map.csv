@@ -1,0 +1,2 @@
+eval_mode,dataset_name,algorithm_name,model_id,model_file_name,AP@0.20,AP@0.30,AP@0.50,mAP50,mAP50-95
+full_test,dataset1_varroa,linear_svm,d1_linsvm_011,d1_linsvm_011__centered80_balanced__hog16_pca_hsv_lbp.joblib,0.23119100202825554,0.15267362973113927,0.005588468388027124,0.005588468388027124,0.0006847873356170289

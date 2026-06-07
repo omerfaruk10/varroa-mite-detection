@@ -1,0 +1,2 @@
+eval_mode,dataset_name,algorithm_name,model_id,model_file_name,image_tp,image_tn,image_fp,image_fn,image_accuracy,image_precision,image_recall,image_specificity,image_f1,false_positive_image_rate,missed_positive_image_rate
+controlled_550,dataset1_varroa,rbf_svm,d1_rbfsvm_006,d1_rbfsvm_006__centered80_neg4x__hog16_hsv_lbp.joblib,227,176,104,43,0.7327272727272728,0.6858006042296072,0.8407407407407408,0.6285714285714286,0.7554076539101497,0.37142857142857144,0.15925925925925927

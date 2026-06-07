@@ -1,0 +1,2 @@
+eval_mode,dataset_name,algorithm_name,model_id,model_file_name,AP@0.20,AP@0.30,AP@0.50,mAP50,mAP50-95
+full_test,dataset2_honeybee,rbf_svm,d2_rbfsvm_006,d2_rbfsvm_006__centered48_neg4x__hog16_hsv_lbp.joblib,0.36488473412246714,0.1940452887664503,0.02002112764921858,0.02002112764921858,0.005641238951843156

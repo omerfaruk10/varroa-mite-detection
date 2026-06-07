@@ -1,0 +1,2 @@
+eval_mode,dataset_name,algorithm_name,model_id,model_file_name,image_tp,image_tn,image_fp,image_fn,image_accuracy,image_precision,image_recall,image_specificity,image_f1,false_positive_image_rate,missed_positive_image_rate
+natural_700,dataset2_honeybee,random_forest,d2_rf_003,d2_rf_003__centered48_balanced__hog16_pca_hsv_lbp.joblib,283,229,24,164,0.7314285714285714,0.9218241042345277,0.6331096196868009,0.9051383399209486,0.7506631299734747,0.09486166007905138,0.3668903803131991

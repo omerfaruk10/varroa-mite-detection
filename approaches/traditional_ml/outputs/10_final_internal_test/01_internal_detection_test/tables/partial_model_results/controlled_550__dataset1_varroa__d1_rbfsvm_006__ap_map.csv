@@ -1,0 +1,2 @@
+eval_mode,dataset_name,algorithm_name,model_id,model_file_name,AP@0.20,AP@0.30,AP@0.50,mAP50,mAP50-95
+controlled_550,dataset1_varroa,rbf_svm,d1_rbfsvm_006,d1_rbfsvm_006__centered80_neg4x__hog16_hsv_lbp.joblib,0.37958821005602716,0.2660604179303437,0.014257057919403172,0.014257057919403172,0.0019157461900956227

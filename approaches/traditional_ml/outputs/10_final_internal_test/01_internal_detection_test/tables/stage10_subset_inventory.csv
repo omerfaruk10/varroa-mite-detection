@@ -1,0 +1,7 @@
+eval_mode,dataset_name,image_count,gt_object_count,zero,one,two,three_plus,two_or_more
+natural_700,dataset1_varroa,700,297,450,205,43,2,45
+natural_700,dataset2_honeybee,700,507,253,393,48,6,54
+controlled_550,dataset1_varroa,550,324,280,220,47,3,50
+controlled_550,dataset2_honeybee,550,325,280,220,45,5,50
+full_test,dataset1_varroa,3408,1449,2190,998,210,10,220
+full_test,dataset2_honeybee,790,572,286,443,54,7,61

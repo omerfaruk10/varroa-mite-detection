@@ -1,0 +1,2 @@
+eval_mode,dataset_name,algorithm_name,model_id,model_file_name,AP@0.20,AP@0.30,AP@0.50,mAP50,mAP50-95
+natural_700,dataset1_varroa,linear_svm,d1_linsvm_004,d1_linsvm_004__centered80_balanced__hog16_hsv_lbp.joblib,0.2692878516082465,0.18038631984283904,0.005331797647177834,0.005331797647177834,0.0007035376903369205
