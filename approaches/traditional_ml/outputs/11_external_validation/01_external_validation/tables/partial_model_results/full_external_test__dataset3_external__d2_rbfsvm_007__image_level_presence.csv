@@ -1,0 +1,2 @@
+image_tp,image_tn,image_fp,image_fn,image_accuracy,image_precision,image_recall,image_specificity,image_f1,false_positive_image_rate,missed_positive_image_rate,eval_mode,dataset_name,source_dataset,source_group,algorithm_name,model_id,model_file_name,run_smoke_test
+197,179,179,41,0.6308724832214765,0.523936170212766,0.8277310924369747,0.5,0.6416938110749186,0.5,0.1722689075630252,full_external_test,dataset3_external,dataset2_honeybee,Dataset2-derived,rbf_svm,d2_rbfsvm_007,d2_rbfsvm_007__centered48_neg4x__hog16_pca_hsv_lbp.joblib,False

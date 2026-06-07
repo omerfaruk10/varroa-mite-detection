@@ -1,0 +1,4 @@
+patch_set,patch_size,ratio_variant,negative_multiplier,row_count,positive_count,negative_count
+centered80_balanced,80,balanced,1,592,296,296
+centered80_neg4x,80,neg4x,4,1480,296,1184
+centered48_neg4x,48,neg4x,4,1480,296,1184

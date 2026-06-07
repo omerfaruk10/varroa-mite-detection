@@ -1,0 +1,6 @@
+model_id,model_file_name,threshold_value,stride_divisor,cluster_iou_threshold,weighted_box_size_factor
+d1_linsvm_011,d1_linsvm_011__centered80_balanced__hog16_pca_hsv_lbp.joblib,2.2,4,0.2,1.0
+d1_rbfsvm_006,d1_rbfsvm_006__centered80_neg4x__hog16_hsv_lbp.joblib,1.2,4,0.25,1.0
+d2_rf_007,d2_rf_007__centered48_neg4x__hog16_pca_hsv_lbp.joblib,0.7,4,0.2,1.0
+d2_rf_006,d2_rf_006__centered48_neg4x__hog16_hsv_lbp.joblib,0.6,4,0.2,1.0
+d2_rbfsvm_007,d2_rbfsvm_007__centered48_neg4x__hog16_pca_hsv_lbp.joblib,0.9,4,0.2,1.0

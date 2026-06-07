@@ -1,0 +1,2 @@
+dataset_name,split,raw_test_image_count,evaluation_image_count,zero_image_count,positive_image_count,gt_object_count,run_smoke_test
+dataset3_external,test,596,596,358,238,296,False

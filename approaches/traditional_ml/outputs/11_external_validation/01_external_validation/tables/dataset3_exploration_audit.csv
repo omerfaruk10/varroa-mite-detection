@@ -1,0 +1,16 @@
+check_name,passed,observed,expected,severity
+test_image_count,True,596,596,ERROR
+test_label_count,True,596,596,ERROR
+test_image_label_delta,True,0,0,ERROR
+test_class_ids,True,[0],{0},ERROR
+test_gt_objects,True,296,296,ERROR
+test_zero_images,True,358,358,ERROR
+test_positive_images,True,238,238,ERROR
+test_total_varroa_objects,True,296,296,ERROR
+test_image_size_640,True,640..640 x 640..640,640x640,ERROR
+missing_label_count,True,0,0,ERROR
+missing_image_count,True,0,0,ERROR
+unreadable_image_count,True,0,0,ERROR
+invalid_yolo_row_count,True,0,0,ERROR
+varroa_bbox_exclusion_candidate_count,True,0,0,ERROR
+image_exclusion_candidate_count,True,0,0,ERROR

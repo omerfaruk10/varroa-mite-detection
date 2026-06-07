@@ -1,0 +1,4 @@
+﻿patch_set,patch_metadata_path,row_count,positive_count,negative_count,action,run_smoke_test
+centered80_balanced,data/metadata/dataset3_external/external_classification/patch_metadata_centered80_balanced.csv,592,296,296,loaded_existing,False
+centered80_neg4x,data/metadata/dataset3_external/external_classification/patch_metadata_centered80_neg4x.csv,1480,296,1184,loaded_existing,False
+centered48_neg4x,data/metadata/dataset3_external/external_classification/patch_metadata_centered48_neg4x.csv,1480,296,1184,loaded_existing,False

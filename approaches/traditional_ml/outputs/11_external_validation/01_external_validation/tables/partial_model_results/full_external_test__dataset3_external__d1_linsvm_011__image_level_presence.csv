@@ -1,0 +1,2 @@
+image_tp,image_tn,image_fp,image_fn,image_accuracy,image_precision,image_recall,image_specificity,image_f1,false_positive_image_rate,missed_positive_image_rate,eval_mode,dataset_name,source_dataset,source_group,algorithm_name,model_id,model_file_name,run_smoke_test
+89,294,64,149,0.6426174496644296,0.5816993464052288,0.3739495798319328,0.8212290502793296,0.45524296675191817,0.1787709497206704,0.6260504201680672,full_external_test,dataset3_external,dataset1_varroa,Dataset1-derived,linear_svm,d1_linsvm_011,d1_linsvm_011__centered80_balanced__hog16_pca_hsv_lbp.joblib,False
