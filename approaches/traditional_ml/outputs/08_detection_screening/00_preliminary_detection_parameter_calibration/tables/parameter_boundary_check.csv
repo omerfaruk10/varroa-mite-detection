@@ -1,0 +1,7 @@
+﻿dataset_name,algorithm_name,threshold_column,tested_threshold_values,selected_threshold,threshold_boundary,tested_stride_divisors,selected_stride_divisor,stride_boundary,note
+dataset1_varroa,linear_svm,score_threshold,"[1.0, 1.5, 2.0]",1.5,inside_tested_range,"[4, 6]",4,lower_divisor_boundary_less_dense,Boundary values are not automatically changed in this notebook.
+dataset1_varroa,random_forest,predict_proba_score_threshold,"[0.3, 0.4, 0.5, 0.6]",0.6,upper_boundary,"[4, 6]",4,lower_divisor_boundary_less_dense,Boundary values are not automatically changed in this notebook.
+dataset1_varroa,rbf_svm,decision_function_score_threshold,"[0.0, 0.25, 0.5, 0.75]",0.75,upper_boundary,"[4, 6]",4,lower_divisor_boundary_less_dense,Boundary values are not automatically changed in this notebook.
+dataset2_honeybee,linear_svm,score_threshold,"[1.0, 1.5, 2.0]",1.0,lower_boundary,"[4, 6]",6,upper_divisor_boundary_more_dense,Boundary values are not automatically changed in this notebook.
+dataset2_honeybee,random_forest,predict_proba_score_threshold,"[0.3, 0.4, 0.5, 0.6]",0.6,upper_boundary,"[4, 6]",4,lower_divisor_boundary_less_dense,Boundary values are not automatically changed in this notebook.
+dataset2_honeybee,rbf_svm,decision_function_score_threshold,"[0.0, 0.25, 0.5, 0.75]",0.75,upper_boundary,"[4, 6]",4,lower_divisor_boundary_less_dense,Boundary values are not automatically changed in this notebook.

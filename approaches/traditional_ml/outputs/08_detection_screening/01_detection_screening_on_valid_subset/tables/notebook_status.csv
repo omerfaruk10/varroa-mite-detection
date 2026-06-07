@@ -1,0 +1,15 @@
+﻿item,value
+dataset1_varroa_valid_subset_image_count,70
+dataset2_honeybee_valid_subset_image_count,61
+screened_model_count,54
+selected_stage09_candidate_count,20
+matching_iou_thresholds,"[0.1, 0.2, 0.3]"
+primary_matching_iou,0.3
+secondary_iou_for_tie_break,0.2
+postprocess_method,weighted_center
+image_scale,1.0
+max_candidates_per_image,500
+standardized_parameters_path,./approaches/traditional_ml/inputs/08_detection_screening/standardized_detection_parameters.csv
+total_screening_runtime_seconds,5465.106
+quality_warning_count,0
+status,READY_FOR_NEXT_STAGE

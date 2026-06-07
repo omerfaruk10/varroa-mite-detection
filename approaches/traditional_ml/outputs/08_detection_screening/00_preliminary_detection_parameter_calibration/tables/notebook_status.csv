@@ -1,0 +1,15 @@
+﻿item,value
+dataset1_varroa_valid_subset_image_count,70
+dataset2_honeybee_valid_subset_image_count,61
+anchor_model_count,6
+calibration_group_count,6
+total_calibration_combinations_evaluated,176
+matching_iou_thresholds,"[0.1, 0.3]"
+primary_matching_iou,0.3
+postprocess_method,weighted_center
+image_scale,1.0
+max_candidates_per_image,500
+pca_cache_entry_count,2
+calibration_quality_warning_count,0
+total_calibration_runtime_seconds,5200.218
+status,READY_FOR_NEXT_STAGE
