@@ -1,310 +1,200 @@
-\# CNN and YOLO Experiments
+# CNN and YOLO
 
+This folder contains the CNN-based classification and YOLO-based object detection experiments conducted for the Varroa mite detection project.
 
+## Scope
 
-This folder contains the CNN-based classification and YOLO-based object detection experiments conducted for Varroa mite detection.
+In this approach, four deep learning models were studied:
 
+* **ResNet18**
+* **EfficientNet-B0**
+* **YOLOv8n**
+* **YOLO26n**
 
+The classification models, **ResNet18** and **EfficientNet-B0**, were used for binary image classification. The goal of these models is to classify each image as:
 
-All preprocessing, training, validation, external validation, result table creation, and graph generation steps were performed in a single Google Colab notebook.
+* `varroa`
+* `no_varroa`
 
+The object detection models, **YOLOv8n** and **YOLO26n**, were used for single-class Varroa mite detection. These models aim to detect the location of Varroa mites in images using bounding boxes.
 
+---
 
-\## Notebook
+## Folder Structure
 
-
-
-The main notebook is located in:
-
-
-
-```text
-
-notebooks/cnn\_yolo\_all\_experiments.ipynb
-
+```bash
+cnn_yolo/
+├── notebooks/
+│   ├── cnn_classification_resnet_efficientnet.ipynb
+│   └── yolo_detection_yolov8_yolo26.ipynb
+├── outputs/
+│   ├── classification_external_accuracy.png
+│   ├── classification_f1_comparison.png
+│   ├── classification_recall_comparison.png
+│   ├── yolo_f1_comparison.png
+│   ├── yolo_map50_comparison.png
+│   ├── yolo_map50_95_comparison.png
+│   └── yolo_recall_comparison.png
+└── README.md
 ```
 
+---
 
+## Notebooks
 
-This notebook includes:
+### 1. `cnn_classification_resnet_efficientnet.ipynb`
 
+This notebook contains the CNN-based binary classification experiments.
 
+It includes:
 
-\* Dataset download and preparation
+* dataset download and preparation
+* YOLO label reading
+* binary classification dataset creation
+* `varroa` / `no_varroa` label generation
+* ResNet18 training and evaluation
+* EfficientNet-B0 training and evaluation
+* internal validation
+* external validation
+* classification metric comparison
+* classification graph generation
 
-\* YOLO label preprocessing
+### 2. `yolo_detection_yolov8_yolo26.ipynb`
 
-\* Binary classification dataset creation
+This notebook contains the YOLO-based object detection experiments.
 
-\* ResNet18 training and evaluation
+It includes:
 
-\* EfficientNet-B0 training and evaluation
+* dataset download and preparation
+* YOLO label preprocessing
+* conversion to single-class `varroa` detection format
+* invalid bounding box cleaning
+* YOLOv8n training and evaluation
+* YOLO26n training and evaluation
+* internal validation
+* external validation
+* detection metric comparison
+* YOLO graph generation
 
-\* YOLOv8n training and evaluation
+---
 
-\* YOLO26n training and evaluation
+## Datasets
 
-\* Internal validation
+Three datasets were used in this approach:
 
-\* External validation
+1. **Varroa Dataset**
+2. **HoneyBee VarroaMite**
+3. **Varroa Mites Detector**
 
-\* Result table creation
+### Dataset Usage
 
-\* Performance graph generation
+* **Varroa Dataset** was used for training and internal validation.
+* **HoneyBee VarroaMite** was used for training and internal validation.
+* **Varroa Mites Detector** was used as the external validation dataset.
 
+The external validation dataset was not used during model training. It was used to evaluate how well the trained models generalize to a different data source.
 
+---
 
-\## Models
+## Preprocessing
 
-
-
-The following models were trained and evaluated in this section.
-
-
-
-\### CNN-based Classification Models
-
-
-
-\* ResNet18
-
-\* EfficientNet-B0
-
-
-
-These models were used for binary image classification. The classification task includes two classes:
-
-
+For YOLO-based object detection models, all valid Varroa labels were converted into a single-class detection format:
 
 ```text
-
-varroa
-
-no\_varroa
-
-```
-
-
-
-\### YOLO-based Object Detection Models
-
-
-
-\* YOLOv8n
-
-\* YOLO26n
-
-
-
-These models were used for object detection. Unlike classification models, YOLO-based models detect the location of Varroa mites in the image using bounding boxes.
-
-
-
-\## Datasets
-
-
-
-The experiments used three datasets:
-
-
-
-\* Varroa Dataset
-
-\* HoneyBee VarroaMite
-
-\* Varroa Mites Detector
-
-
-
-Varroa Dataset and HoneyBee VarroaMite were used for model training and internal validation.
-
-
-
-Varroa Mites Detector was used as an external validation dataset. This dataset was not used during model training. It was used to evaluate how well the trained models generalize to a different data source.
-
-
-
-\## Preprocessing
-
-
-
-For YOLO-based object detection models, the datasets were converted into a single-class detection format:
-
-
-
-```text
-
 0: varroa
-
 ```
 
+Invalid bounding boxes were removed during preprocessing. Empty label files were preserved as negative/background samples.
 
+For CNN-based classification models, YOLO annotation files were converted into a binary classification structure. Images containing at least one valid Varroa bounding box were labeled as `varroa`. Images without a valid Varroa label were labeled as `no_varroa`.
 
-Invalid bounding boxes were removed during preprocessing. Empty label files were preserved as negative/background examples.
+---
 
+## Models
 
+### Classification Models
 
-For CNN-based classification models, YOLO annotation files were converted into a binary classification structure. Images containing at least one valid Varroa bounding box were labeled as `varroa`. Images without a valid Varroa label were labeled as `no\_varroa`.
+| Model           | Task                  | Output                 |
+| --------------- | --------------------- | ---------------------- |
+| ResNet18        | Binary classification | `varroa` / `no_varroa` |
+| EfficientNet-B0 | Binary classification | `varroa` / `no_varroa` |
 
+### Object Detection Models
 
+| Model   | Task             | Output         |
+| ------- | ---------------- | -------------- |
+| YOLOv8n | Object detection | Bounding boxes |
+| YOLO26n | Object detection | Bounding boxes |
 
-\## Input Sizes
+---
 
-
+## Input Sizes
 
 | Model           | Input Size |
-
 | --------------- | ---------- |
-
 | ResNet18        | 224x224    |
-
 | EfficientNet-B0 | 224x224    |
-
 | YOLOv8n         | 640x640    |
-
 | YOLO26n         | 640x640    |
 
+---
 
+## Evaluation Metrics
 
-\## Evaluation Metrics
+### Classification Metrics
 
+The classification models were evaluated using:
 
+* Accuracy
+* Precision
+* Recall
+* F1-score
 
-Classification models were evaluated using:
+### Object Detection Metrics
 
+The YOLO-based object detection models were evaluated using:
 
+* Precision
+* Recall
+* F1-score
+* mAP50
+* mAP50-95
 
-\* Accuracy
+---
 
-\* Precision
+## Outputs
 
-\* Recall
+Generated result graphs are stored in the `outputs/` folder.
 
-\* F1-score
+### Classification Graphs
 
+* `classification_external_accuracy.png`
+* `classification_f1_comparison.png`
+* `classification_recall_comparison.png`
 
+### YOLO Graphs
 
-YOLO-based object detection models were evaluated using:
+* `yolo_f1_comparison.png`
+* `yolo_map50_comparison.png`
+* `yolo_map50_95_comparison.png`
+* `yolo_recall_comparison.png`
 
+---
 
+## Results Summary
 
-\* Precision
+Among the CNN-based classification models, **EfficientNet-B0 trained on the Varroa Dataset** achieved the strongest external validation result.
 
-\* Recall
+Among the YOLO-based object detection models, **YOLOv8n trained on the Varroa Dataset** achieved the strongest external validation result.
 
-\* F1-score
+The results showed that models trained on the Varroa Dataset generally achieved better external validation performance than models trained on the HoneyBee VarroaMite dataset. This indicates that dataset distribution, image characteristics, and annotation consistency have an important effect on model generalization.
 
-\* mAP50
+---
 
-\* mAP50-95
+## Notes
 
+Experiments were mainly conducted in **Google Colab**.
 
-
-\## Outputs
-
-
-
-Generated graphs and result visualizations are stored in:
-
-
-
-```text
-
-outputs/
-
-```
-
-
-
-The output folder includes:
-
-
-
-\* `classification\_external\_accuracy.png`
-
-\* `classification\_f1\_comparison.png`
-
-\* `classification\_recall\_comparison.png`
-
-\* `yolo\_f1\_comparison.png`
-
-\* `yolo\_map50\_comparison.png`
-
-\* `yolo\_map50\_95\_comparison.png`
-
-\* `yolo\_recall\_comparison.png`
-
-
-
-\## Results Summary
-
-
-
-Among the CNN-based classification models, EfficientNet-B0 trained on the Varroa Dataset achieved the strongest external validation result.
-
-
-
-Among the YOLO-based object detection models, YOLOv8n trained on the Varroa Dataset achieved the strongest external validation result.
-
-
-
-The results showed that models trained on the Varroa Dataset generally achieved better external validation performance than models trained on the HoneyBee VarroaMite dataset. This indicates that dataset distribution and annotation consistency have an important effect on model generalization.
-
-
-
-\## Folder Structure
-
-
-
-```text
-
-cnn\_yolo/
-
-│
-
-├── notebooks/
-
-│   └── cnn\_yolo\_all\_experiments.ipynb
-
-│
-
-├── outputs/
-
-│   ├── classification\_external\_accuracy.png
-
-│   ├── classification\_f1\_comparison.png
-
-│   ├── classification\_recall\_comparison.png
-
-│   ├── yolo\_f1\_comparison.png
-
-│   ├── yolo\_map50\_comparison.png
-
-│   ├── yolo\_map50\_95\_comparison.png
-
-│   └── yolo\_recall\_comparison.png
-
-│
-
-└── README.md
-
-```
-
-
-
-\## Notes
-
-
-
-Large datasets and trained model weight files are not included in this repository.
-
-
-
-The datasets were downloaded and processed in Google Colab during the experimental process. Model weight files such as `best.pt` and `last.pt` were excluded because of file size limitations.
-
-
+Large datasets and trained model weight files are not included in this repository. Model weight files such as `best.pt` and `last.pt` were excluded because of file size limitations.
 
 Roboflow API keys and personal Google Drive paths should not be committed to the repository.
-
-
-
