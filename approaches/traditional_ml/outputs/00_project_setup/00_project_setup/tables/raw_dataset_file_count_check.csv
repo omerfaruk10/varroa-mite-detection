@@ -1,0 +1,10 @@
+﻿dataset_name,dataset_role,split,image_count,label_count,image_label_count_difference,status,images_dir,labels_dir
+dataset1_varroa,model_development_internal,train,8217,8217,0,OK,data/raw/dataset1_varroa/train/images,data/raw/dataset1_varroa/train/labels
+dataset1_varroa,model_development_internal,valid,1867,1867,0,OK,data/raw/dataset1_varroa/valid/images,data/raw/dataset1_varroa/valid/labels
+dataset1_varroa,model_development_internal,test,3408,3408,0,OK,data/raw/dataset1_varroa/test/images,data/raw/dataset1_varroa/test/labels
+dataset2_honeybee,model_development_internal,train,12614,12614,0,OK,data/raw/dataset2_honeybee/train/images,data/raw/dataset2_honeybee/train/labels
+dataset2_honeybee,model_development_internal,valid,790,790,0,OK,data/raw/dataset2_honeybee/valid/images,data/raw/dataset2_honeybee/valid/labels
+dataset2_honeybee,model_development_internal,test,790,790,0,OK,data/raw/dataset2_honeybee/test/images,data/raw/dataset2_honeybee/test/labels
+dataset3_external,external_validation_only,train,4749,4749,0,OK,data/raw/dataset3_external/train/images,data/raw/dataset3_external/train/labels
+dataset3_external,external_validation_only,valid,593,593,0,OK,data/raw/dataset3_external/valid/images,data/raw/dataset3_external/valid/labels
+dataset3_external,external_validation_only,test,596,596,0,OK,data/raw/dataset3_external/test/images,data/raw/dataset3_external/test/labels
