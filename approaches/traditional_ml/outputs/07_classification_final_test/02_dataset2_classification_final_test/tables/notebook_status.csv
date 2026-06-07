@@ -1,0 +1,2 @@
+stage_name,notebook_name,dataset_name,evaluation_split,expected_model_count,evaluated_model_count,failed_evaluation_count,best_model_file_name,best_algorithm_name,best_patch_set,best_feature_set,best_test_f1,status,started_at,finished_at
+07_classification_final_test,02_dataset2_classification_final_test,dataset2_honeybee,test,27,27,0,d2_rbfsvm_002__centered48_balanced__hog16_hsv_lbp.joblib,rbf_svm,centered48_balanced,hog16_hsv_lbp,0.9174800354924578,READY_FOR_NEXT_STAGE,2026-05-28 16:36:39,2026-05-28 16:42:04

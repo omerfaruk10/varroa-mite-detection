@@ -1,0 +1,4 @@
+﻿dataset_name,algorithm_name,algorithm_dir,algorithm_dir_exists,joblib_count,expected_count,status
+dataset1_varroa,linear_svm,outputs/models/selected_classification_model_pool/dataset1_varroa/linear_svm,True,9,9,OK
+dataset1_varroa,rbf_svm,outputs/models/selected_classification_model_pool/dataset1_varroa/rbf_svm,True,9,9,OK
+dataset1_varroa,random_forest,outputs/models/selected_classification_model_pool/dataset1_varroa/random_forest,True,9,9,OK

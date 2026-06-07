@@ -1,0 +1,2 @@
+stage_name,notebook_name,dataset_name,evaluation_split,expected_model_count,evaluated_model_count,failed_evaluation_count,best_model_file_name,best_algorithm_name,best_patch_set,best_feature_set,best_test_f1,status,started_at,finished_at
+07_classification_final_test,01_dataset1_classification_final_test,dataset1_varroa,test,27,27,0,d1_rbfsvm_003__centered80_balanced__hog16_hsv_lbp.joblib,rbf_svm,centered80_balanced,hog16_hsv_lbp,0.9362826015186531,READY_FOR_NEXT_STAGE,2026-05-28 16:36:20,2026-05-28 16:41:05

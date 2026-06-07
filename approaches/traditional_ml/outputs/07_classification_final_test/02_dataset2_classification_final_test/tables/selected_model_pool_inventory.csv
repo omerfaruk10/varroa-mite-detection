@@ -1,0 +1,4 @@
+﻿dataset_name,algorithm_name,algorithm_dir,algorithm_dir_exists,joblib_count,expected_count,status
+dataset2_honeybee,linear_svm,outputs/models/selected_classification_model_pool/dataset2_honeybee/linear_svm,True,9,9,OK
+dataset2_honeybee,rbf_svm,outputs/models/selected_classification_model_pool/dataset2_honeybee/rbf_svm,True,9,9,OK
+dataset2_honeybee,random_forest,outputs/models/selected_classification_model_pool/dataset2_honeybee/random_forest,True,9,9,OK

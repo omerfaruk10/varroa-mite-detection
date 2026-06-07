@@ -1,0 +1,4 @@
+﻿input_name,path,exists,row_count,column_count
+stage07_selected_candidates,./approaches/traditional_ml/inputs/07_classification_final_test/selected_linear_candidates_all.csv,True,18,16.0
+dataset_feature_files,data/features/dataset1_varroa,True,78,
+selected_model_pool_files,outputs/models/selected_classification_model_pool/dataset1_varroa,True,27,
