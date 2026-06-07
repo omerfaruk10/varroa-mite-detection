@@ -1,0 +1,2 @@
+dataset_name,algorithm_name,fit_status,count
+dataset1_varroa,linear_svm,trained,78

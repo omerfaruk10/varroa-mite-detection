@@ -1,0 +1,2 @@
+notebook_name,algorithm_name,active_datasets,debug_mode,overwrite_models,expected_model_count,trained_count,loaded_existing_count,failed_count,status,created_at
+00_linear_svm_dataset1_training,linear_svm,dataset1_varroa,False,False,78,78,0,0,READY_FOR_NEXT_STAGE,2026-05-26 15:15:36

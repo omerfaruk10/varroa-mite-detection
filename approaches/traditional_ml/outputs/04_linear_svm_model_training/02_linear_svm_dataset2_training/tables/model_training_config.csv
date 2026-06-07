@@ -1,0 +1,12 @@
+setting,value
+algorithm_name,linear_svm
+pipeline,standard_scaler + linear_svc
+model_type,LinearSVC
+scaler_used,True
+score_method,decision_function
+class_weight,None
+cv_folds,3
+scoring,f1
+n_jobs,-1
+hyperparameter_grid_name,linear_svm_stage04_v1
+output_algorithm_folder,00_linear_svm

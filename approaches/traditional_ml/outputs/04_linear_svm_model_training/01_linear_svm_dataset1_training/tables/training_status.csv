@@ -1,0 +1,2 @@
+dataset_name,expected_model_count,trained,loaded_existing,failed,completed_or_loaded_count,missing_or_failed_count,debug_mode,status
+dataset1_varroa,78,78,0,0,78,0,False,READY_FOR_NEXT_STAGE
