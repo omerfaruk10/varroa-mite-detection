@@ -1,0 +1,14 @@
+feature_set,hog_variant,use_pca,include_hsv,include_lbp,dataset_name,pca_explained_variance
+hog8_hsv_lbp,hog8,False,True,True,dataset1_varroa,
+hog8_hsv,hog8,False,True,False,dataset1_varroa,
+hog8_only,hog8,False,False,False,dataset1_varroa,
+hog16_hsv_lbp,hog16,False,True,True,dataset1_varroa,
+hog16_hsv,hog16,False,True,False,dataset1_varroa,
+hog16_only,hog16,False,False,False,dataset1_varroa,
+hsv_lbp_only,,False,True,True,dataset1_varroa,
+hog8_pca_hsv_lbp,hog8,True,True,True,dataset1_varroa,0.95
+hog8_pca_hsv,hog8,True,True,False,dataset1_varroa,0.95
+hog8_pca_only,hog8,True,False,False,dataset1_varroa,0.95
+hog16_pca_hsv_lbp,hog16,True,True,True,dataset1_varroa,0.95
+hog16_pca_hsv,hog16,True,True,False,dataset1_varroa,0.95
+hog16_pca_only,hog16,True,False,False,dataset1_varroa,0.95

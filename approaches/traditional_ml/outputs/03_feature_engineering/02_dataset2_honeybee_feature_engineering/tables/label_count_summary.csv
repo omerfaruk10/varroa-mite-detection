@@ -1,0 +1,7 @@
+dataset_name,patch_set,positive_count,negative_count
+dataset2_honeybee,centered48_balanced,10353,10353
+dataset2_honeybee,centered48_neg4x,10353,41412
+dataset2_honeybee,centered64_balanced,10353,10353
+dataset2_honeybee,centered64_neg4x,10353,41412
+dataset2_honeybee,centered80_balanced,10353,10353
+dataset2_honeybee,centered80_neg4x,10353,41412

@@ -1,0 +1,14 @@
+feature_set,hog_variant,use_pca,include_hsv,include_lbp,dataset_name,pca_explained_variance
+hog8_hsv_lbp,hog8,False,True,True,dataset2_honeybee,
+hog8_hsv,hog8,False,True,False,dataset2_honeybee,
+hog8_only,hog8,False,False,False,dataset2_honeybee,
+hog16_hsv_lbp,hog16,False,True,True,dataset2_honeybee,
+hog16_hsv,hog16,False,True,False,dataset2_honeybee,
+hog16_only,hog16,False,False,False,dataset2_honeybee,
+hsv_lbp_only,,False,True,True,dataset2_honeybee,
+hog8_pca_hsv_lbp,hog8,True,True,True,dataset2_honeybee,0.95
+hog8_pca_hsv,hog8,True,True,False,dataset2_honeybee,0.95
+hog8_pca_only,hog8,True,False,False,dataset2_honeybee,0.95
+hog16_pca_hsv_lbp,hog16,True,True,True,dataset2_honeybee,0.95
+hog16_pca_hsv,hog16,True,True,False,dataset2_honeybee,0.95
+hog16_pca_only,hog16,True,False,False,dataset2_honeybee,0.95

@@ -1,0 +1,3 @@
+hog_variant,pixels_per_cell,orientations,cells_per_block,block_norm,transform_sqrt
+hog8,"(8, 8)",9,"(2, 2)",L2-Hys,True
+hog16,"(16, 16)",9,"(2, 2)",L2-Hys,True

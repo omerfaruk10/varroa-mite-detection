@@ -1,0 +1,13 @@
+﻿dataset_name,patch_set,hog_variant,pca_artifact_path,pca_action,pca_fit_split,train_row_count,original_hog_dimension,pca_n_components_actual,pca_explained_variance_target,pca_explained_variance_actual
+dataset1_varroa,centered80_balanced,hog8,data/features/dataset1_varroa/pca_artifacts/centered80_balanced__hog8_pca.joblib,created_or_overwritten,train,6064,2916,739,0.95,0.9500816464424133
+dataset1_varroa,centered80_balanced,hog16,data/features/dataset1_varroa/pca_artifacts/centered80_balanced__hog16_pca.joblib,created_or_overwritten,train,6064,576,177,0.95,0.9508655667304993
+dataset1_varroa,centered80_neg4x,hog8,data/features/dataset1_varroa/pca_artifacts/centered80_neg4x__hog8_pca.joblib,created_or_overwritten,train,15160,2916,769,0.95,0.9501150846481323
+dataset1_varroa,centered80_neg4x,hog16,data/features/dataset1_varroa/pca_artifacts/centered80_neg4x__hog16_pca.joblib,created_or_overwritten,train,15160,576,181,0.95,0.9504688382148743
+dataset1_varroa,centered96_balanced,hog8,data/features/dataset1_varroa/pca_artifacts/centered96_balanced__hog8_pca.joblib,created_or_overwritten,train,6064,4356,1042,0.95,0.950124204158783
+dataset1_varroa,centered96_balanced,hog16,data/features/dataset1_varroa/pca_artifacts/centered96_balanced__hog16_pca.joblib,created_or_overwritten,train,6064,900,255,0.95,0.9502438306808472
+dataset1_varroa,centered96_neg4x,hog8,data/features/dataset1_varroa/pca_artifacts/centered96_neg4x__hog8_pca.joblib,created_or_overwritten,train,15160,4356,1105,0.95,0.9501655101776123
+dataset1_varroa,centered96_neg4x,hog16,data/features/dataset1_varroa/pca_artifacts/centered96_neg4x__hog16_pca.joblib,created_or_overwritten,train,15160,900,263,0.95,0.9504147171974182
+dataset1_varroa,centered112_balanced,hog8,data/features/dataset1_varroa/pca_artifacts/centered112_balanced__hog8_pca.joblib,created_or_overwritten,train,6064,6084,1375,0.95,0.9500457048416138
+dataset1_varroa,centered112_balanced,hog16,data/features/dataset1_varroa/pca_artifacts/centered112_balanced__hog16_pca.joblib,created_or_overwritten,train,6064,1296,348,0.95,0.9501897096633911
+dataset1_varroa,centered112_neg4x,hog8,data/features/dataset1_varroa/pca_artifacts/centered112_neg4x__hog8_pca.joblib,created_or_overwritten,train,15160,6084,1494,0.95,0.9500818848609924
+dataset1_varroa,centered112_neg4x,hog16,data/features/dataset1_varroa/pca_artifacts/centered112_neg4x__hog16_pca.joblib,created_or_overwritten,train,15160,1296,359,0.95,0.9501409530639648

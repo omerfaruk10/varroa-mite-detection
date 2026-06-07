@@ -1,0 +1,7 @@
+dataset_name,patch_set,train_row_count,valid_row_count,test_row_count
+dataset2_honeybee,centered48_balanced,18422,1140,1144
+dataset2_honeybee,centered48_neg4x,46055,2850,2860
+dataset2_honeybee,centered64_balanced,18422,1140,1144
+dataset2_honeybee,centered64_neg4x,46055,2850,2860
+dataset2_honeybee,centered80_balanced,18422,1140,1144
+dataset2_honeybee,centered80_neg4x,46055,2850,2860

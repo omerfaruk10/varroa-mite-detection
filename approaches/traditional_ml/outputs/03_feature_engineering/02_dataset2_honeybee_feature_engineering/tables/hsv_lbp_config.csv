@@ -1,0 +1,2 @@
+hsv_h_bins,hsv_s_bins,hsv_v_bins,lbp_radius,lbp_points,lbp_method
+16,8,8,1,8,uniform

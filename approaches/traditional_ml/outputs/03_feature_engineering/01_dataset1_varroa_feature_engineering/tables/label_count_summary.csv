@@ -1,0 +1,7 @@
+dataset_name,patch_set,positive_count,negative_count
+dataset1_varroa,centered112_balanced,5123,5123
+dataset1_varroa,centered112_neg4x,5123,20492
+dataset1_varroa,centered80_balanced,5123,5123
+dataset1_varroa,centered80_neg4x,5123,20492
+dataset1_varroa,centered96_balanced,5123,5123
+dataset1_varroa,centered96_neg4x,5123,20492
