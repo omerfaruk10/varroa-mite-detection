@@ -1,0 +1,4 @@
+﻿controlled_gt_count_group,available_count,target_count,dataset_name,mode_label
+zero,1441,250,dataset1_varroa,controlled_equal_subset_500
+one,240,200,dataset1_varroa,controlled_equal_subset_500
+two_or_more,186,50,dataset1_varroa,controlled_equal_subset_500

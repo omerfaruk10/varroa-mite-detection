@@ -1,0 +1,5 @@
+﻿dataset_name,mode_label,gt_count_group,full_count,subset_count,full_total,subset_total,full_ratio,subset_ratio,ratio_difference,selected_source
+dataset1_varroa,controlled_equal_subset_500,one,240,200,1867,500,0.12854847348687734,0.4,0.27145152651312265,controlled_equal_gt_count_sampling
+dataset1_varroa,controlled_equal_subset_500,three_plus,31,7,1867,500,0.016604177825388325,0.014,-0.0026041778253883246,controlled_equal_gt_count_sampling
+dataset1_varroa,controlled_equal_subset_500,two,155,43,1867,500,0.08302088912694162,0.086,0.0029791108730583687,controlled_equal_gt_count_sampling
+dataset1_varroa,controlled_equal_subset_500,zero,1441,250,1867,500,0.7718264595607928,0.5,-0.27182645956079277,controlled_equal_gt_count_sampling

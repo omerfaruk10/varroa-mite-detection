@@ -1,0 +1,22 @@
+﻿item,value
+stage_name,09_detection_tuning
+notebook_name,03_detection_tuning_controlled_equal_subset_refinement
+candidate_model_count,24
+postprocess_method,weighted_center
+default_primary_metric,detection_f1_iou_0_2
+strict_comparison_metric,detection_f1_iou_0_3
+run_smoke_mode,False
+run_full_valid_tuning,True
+smoke_use_full_phase2_grid,False
+use_per_model_stride_raw_score_reuse,True
+use_large_valid_subset_for_tuning,True
+large_valid_subset_target_per_dataset,500
+large_valid_subset_strategy,controlled_equal_gt_count_subset
+large_valid_subset_random_state,42
+configured_tuning_mode_label,controlled_equal_subset_500
+use_existing_large_valid_subset_selected_images,False
+existing_large_valid_subset_mode_label,large_valid_subset_700
+use_controlled_equal_subset_for_tuning,True
+controlled_subset_targets,"{""zero"": 250, ""one"": 200, ""two_or_more"": 50}"
+stage10_selection_policy,user_decides_after_reviewing_stage09_results
+

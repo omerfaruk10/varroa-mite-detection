@@ -1,0 +1,5 @@
+﻿dataset_name,mode_label,gt_count_group,full_count,subset_count,full_total,subset_total,full_ratio,subset_ratio,ratio_difference,selected_source
+dataset2_honeybee,controlled_equal_subset_500,one,465,200,790,500,0.5886075949367089,0.4,-0.18860759493670887,controlled_equal_gt_count_sampling
+dataset2_honeybee,controlled_equal_subset_500,three_plus,1,1,790,500,0.0012658227848101266,0.002,0.0007341772151898734,controlled_equal_gt_count_sampling
+dataset2_honeybee,controlled_equal_subset_500,two,51,49,790,500,0.06455696202531645,0.098,0.03344303797468355,controlled_equal_gt_count_sampling
+dataset2_honeybee,controlled_equal_subset_500,zero,273,250,790,500,0.34556962025316457,0.5,0.15443037974683543,controlled_equal_gt_count_sampling

@@ -1,0 +1,12 @@
+﻿check_name,status,value
+candidate_model_count_is_24,PASS,24
+six_dataset_algorithm_groups,PASS,6
+each_group_has_four_models,PASS,"[{""dataset_name"": ""dataset1_varroa"", ""algorithm_name"": ""linear_svm"", ""model_count"": 4}, {""dataset_name"": ""dataset1_varroa"", ""algorithm_name"": ""random_forest"", ""model_count"": 4}, {""dataset_name"": ""dataset1_varroa"", ""algorithm_name"": ""rbf_svm"", ""model_count"": 4}, {""dataset_name"": ""dataset2_honeybee"", ""algorithm_name"": ""linear_svm"", ""model_count"": 4}, {""dataset_name"": ""dataset2_honeybee"", ""algorithm_name"": ""random_forest"", ""model_count"": 4}, {""dataset_name"": ""dataset2_honeybee"", ""algorithm_name"": ""rbf_svm"", ""model_count"": 4}]"
+all_model_paths_exist,PASS,24
+dataset1_varroa_valid_images_dir_exists,PASS,data/raw/dataset1_varroa/valid/images
+dataset1_varroa_valid_labels_dir_exists,PASS,data/raw/dataset1_varroa/valid/labels
+dataset1_varroa_pca_artifacts_dir_exists,PASS,data/features/dataset1_varroa/pca_artifacts
+dataset2_honeybee_valid_images_dir_exists,PASS,data/raw/dataset2_honeybee/valid/images
+dataset2_honeybee_valid_labels_dir_exists,PASS,data/raw/dataset2_honeybee/valid/labels
+dataset2_honeybee_pca_artifacts_dir_exists,PASS,data/features/dataset2_honeybee/pca_artifacts
+

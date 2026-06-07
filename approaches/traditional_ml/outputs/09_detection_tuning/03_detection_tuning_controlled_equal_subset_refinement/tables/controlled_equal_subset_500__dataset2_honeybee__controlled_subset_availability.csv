@@ -1,0 +1,4 @@
+﻿controlled_gt_count_group,available_count,target_count,dataset_name,mode_label
+zero,273,250,dataset2_honeybee,controlled_equal_subset_500
+one,465,200,dataset2_honeybee,controlled_equal_subset_500
+two_or_more,52,50,dataset2_honeybee,controlled_equal_subset_500

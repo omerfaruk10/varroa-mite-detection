@@ -1,0 +1,8 @@
+﻿dataset_name,algorithm_name,threshold_values,threshold_count,stride_divisor_values,cluster_iou_threshold_values,weighted_box_size_factor_values,phase1_evaluations_per_model,phase2_evaluations_per_model,use_large_valid_subset_for_tuning,large_valid_subset_target_per_dataset,large_valid_subset_strategy,smoke_use_full_phase2_grid,smoke_phase2_evaluations_per_model
+dataset1_varroa,linear_svm,"[1.3, 1.4, 1.5, 1.6, 1.7, 1.8, 1.9, 2.0, 2.1, 2.2]",10,[4],"[0.2, 0.25, 0.3]","[1.0, 1.25]",10,6,True,700,proportional_stratified,False,1
+dataset1_varroa,rbf_svm,"[0.5, 0.6, 0.7, 0.8, 0.9, 1.0]",6,[4],"[0.2, 0.25, 0.3]","[1.0, 1.25]",6,6,True,700,proportional_stratified,False,1
+dataset1_varroa,random_forest,"[0.5, 0.6, 0.7, 0.8]",4,[4],"[0.2, 0.25, 0.3]","[1.0, 1.25]",4,6,True,700,proportional_stratified,False,1
+dataset2_honeybee,linear_svm,"[0.7, 0.8, 0.9, 1.0, 1.1, 1.2, 1.3, 1.4]",8,[4],"[0.2, 0.25, 0.3]","[1.0, 1.25]",8,6,True,700,proportional_stratified,False,1
+dataset2_honeybee,rbf_svm,"[0.5, 0.6, 0.7, 0.8, 0.9, 1.0]",6,[4],"[0.2, 0.25, 0.3]","[1.0, 1.25]",6,6,True,700,proportional_stratified,False,1
+dataset2_honeybee,random_forest,"[0.5, 0.6, 0.7, 0.8]",4,[4],"[0.2, 0.25, 0.3]","[1.0, 1.25]",4,6,True,700,proportional_stratified,False,1
+

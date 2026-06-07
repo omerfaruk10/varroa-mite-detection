@@ -1,0 +1,8 @@
+﻿dataset_name,algorithm_name,model_count
+dataset1_varroa,linear_svm,4
+dataset1_varroa,random_forest,4
+dataset1_varroa,rbf_svm,4
+dataset2_honeybee,linear_svm,4
+dataset2_honeybee,random_forest,4
+dataset2_honeybee,rbf_svm,4
+

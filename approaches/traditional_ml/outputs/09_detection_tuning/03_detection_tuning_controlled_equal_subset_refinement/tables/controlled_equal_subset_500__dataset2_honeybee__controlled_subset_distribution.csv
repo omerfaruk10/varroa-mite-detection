@@ -1,0 +1,4 @@
+﻿dataset_name,mode_label,controlled_gt_count_group,full_count,target_count,subset_count,full_total,subset_total,full_ratio,subset_ratio
+dataset2_honeybee,controlled_equal_subset_500,one,465,200,200,790,500,0.5886075949367089,0.4
+dataset2_honeybee,controlled_equal_subset_500,two_or_more,52,50,50,790,500,0.06582278481012659,0.1
+dataset2_honeybee,controlled_equal_subset_500,zero,273,250,250,790,500,0.34556962025316457,0.5

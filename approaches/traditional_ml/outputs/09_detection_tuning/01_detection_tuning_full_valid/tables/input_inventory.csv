@@ -1,0 +1,4 @@
+﻿dataset_name,valid_image_count,readable_image_count,gt_object_count,zero_varroa_image_count,one_or_more_varroa_image_count,invalid_yolo_row_count
+dataset1_varroa,1867,1867,644,1441,426,0
+dataset2_honeybee,790,790,570,273,517,10
+

@@ -1,0 +1,6 @@
+﻿dataset_name,mode_label,gt_count_group,full_count,subset_count,full_total,subset_total,full_ratio,subset_ratio,ratio_difference
+dataset2_honeybee,large_valid_subset_700,one,465,412,790,700,0.5886075949367089,0.5885714285714285,-3.616636528036565e-05
+dataset2_honeybee,large_valid_subset_700,three_plus,1,1,790,700,0.0012658227848101266,0.0014285714285714286,0.00016274864376130196
+dataset2_honeybee,large_valid_subset_700,two,51,45,790,700,0.06455696202531645,0.06428571428571428,-0.0002712477396021734
+dataset2_honeybee,large_valid_subset_700,zero,273,242,790,700,0.34556962025316457,0.3457142857142857,0.00014466546112112955
+

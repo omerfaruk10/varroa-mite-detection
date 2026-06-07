@@ -1,0 +1,4 @@
+﻿dataset_name,mode_label,controlled_gt_count_group,full_count,target_count,subset_count,full_total,subset_total,full_ratio,subset_ratio
+dataset1_varroa,controlled_equal_subset_500,one,240,200,200,1867,500,0.12854847348687734,0.4
+dataset1_varroa,controlled_equal_subset_500,two_or_more,186,50,50,1867,500,0.09962506695232994,0.1
+dataset1_varroa,controlled_equal_subset_500,zero,1441,250,250,1867,500,0.7718264595607928,0.5
