@@ -1,8 +1,4 @@
-Yüklediğin grafik çıktısına (mAP50-95, mAP50, Precision, Recall ve F1-score karşılaştırmaları) ve notebook içeriklerindeki gerçek yapılandırmalara (`id2label: {0: 'bee', 1: 'varroa'}` gibi) dayanarak `README.md` dosyasını tamamen güncelledim.
 
-Dosya yapısını, grafik isimlerini ve sonuç özetlerini tam olarak projenin çıktılarıyla birebir uyumlu hale getiren güncel taslak:
-
----
 
 # Transformers for Object Detection
 
