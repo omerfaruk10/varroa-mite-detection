@@ -1,1 +1,14 @@
-
+transformers
+datasets
+torch
+torchvision
+ultralytics
+roboflow
+albumentations
+opencv-python
+numpy
+pillow
+pyyaml
+tqdm
+requests
+matplotlib
